@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top-section {
+  background-image: url(../image/chicago.jpg);
+  background-size: cover;
+}
+.top-section li {
+  display: inline-block;
+}
+.top-section li a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 300;
+  font-family: "roboto";
+  padding: 12px 14px;
+  display: inline-block;
+  color: #fff;
+}
+.top-section li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.text {
+  color: aqua;
+  text-align: center;
+  margin-top: 40%;
+}
+.text h2 {
+  margin-bottom: 50px;
+}
+p {
+  padding-bottom: 30px;
+}
+.nav {
+  background-color: #000;
+}
+.container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.first-container h2{
+  text-align: center;
+  padding: 20px;
+}
+.first-container span{
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
