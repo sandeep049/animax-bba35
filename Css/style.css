@@ -32,7 +32,7 @@
 .text h2 {
   margin-bottom: 50px;
 }
-p {
+.text p {
   padding-bottom: 30px;
 }
 .nav {
@@ -198,22 +198,38 @@ p {
 
 
 
-
-
-.last-container h2 {
-  text-align: center;
-  margin-top: 40px;
+.last-section{
+  padding: 64px 16px;
+  margin: 0 360.4px;
 }
-.last-container h4 {
+.last-section h2 {
   text-align: center;
-  padding: 25px;
+  margin: 10px 0;
 }
-.last-container {
+.last-section h4 {
+  text-align: center;
+  margin: 15px 0;
+}
+.last-section {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
-.second-row {
-  max-width: 50%;
-  display: flex;
+.form-field button{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
 }
+.icon-field i{
+  margin: 0 20px;
+}
+.icon-field p{
+  padding: 3px;
+}
+.b-row{
+  width: 50%;
+}
+
+
+
