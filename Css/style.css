@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 .top-section {
   background-image: url(../image/chicago.jpg);
@@ -20,7 +21,7 @@
 }
 .top-section li a:hover {
   background-color: #fff;
-  color: #000;
+  color: #ff0000;
 }
 
 .text {
@@ -37,18 +38,178 @@ p {
 .nav {
   background-color: #000;
 }
-.container{
+
+
+
+
+
+
+.container {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
-.first-container h2{
+.first-container h2 {
   text-align: center;
-  padding: 20px;
+  margin-top: 80px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+  font-size: xx-large;
 }
-.first-container span{
+.first-container span {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
   display: block;
   padding: 20px;
 }
+.first-container p {
+  text-align: justify;
+}
+.container .card h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+
+
+
+
+.date-container {
+  background-color: #000;
+}
+.a-row {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 64px 16px;
+}
+.card img {
+  width: 60%;
+  border-radius: 5px;
+}
+.container {
+  padding: 64px 16px;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px 0px;
+}
+.card {
+  text-align: center;
+}
+.text-container h2 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.text-container p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-style: italic;
+  padding: 20px 0px;
+}
+.booking-wrapper {
+  background-color: #fff;
+}
+.booking-month:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+.booking-month {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.badge {
+  background-color: #f44336;
+  color: #fff;
+  padding: 0 8px;
+  margin-left: 16px;
+}
+.badge-circle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.second-card {
+  background-color:#fff ;
+  color: #000000;
+}
+.btn{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.second-card-wrapper{
+  display: flex;
+}
+.card-body h3{
+  margin: 15px 0;
+}
+.second-card-wrapper img{
+  width: 100%;
+}
+.card-body h4{
+  margin: 15px 0;
+}
+.card-body p{
+  margin: 15px 0;
+}
+.card-body{
+  padding: 0.15px 16px;
+}
+.card-body a{
+  margin: 0 0 16px 0;
+  padding: 8px 16px;
+}
+.full-card{
+
+  margin: 0 0 16px 0;
+  padding: 0 8px;
+}
+.second-card-wrapper{
+  padding: 32px 0;
+}
+
+
+
+
+
+
+
+
+
+.last-container h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+.last-container h4 {
+  text-align: center;
+  padding: 25px;
+}
+.last-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.second-row {
+  max-width: 50%;
+  display: flex;
+}
