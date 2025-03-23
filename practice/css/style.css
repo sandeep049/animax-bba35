@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first-section {
+  background-image: url(../image/chicago.jpg);
+  background-size: cover;
+}
+.nav {
+  display: inline-block;
+  padding: 12px 0;
+}
+.second {
+  margin-top: 50%;
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 24px;
+}
+.nav {
+  background-color: #000;
+  display: block;
+}
+.nav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.second h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.second p {
+  text-align: center;
+  margin: 15px 0;
+}
+.second {
+  padding: 32px 16px;
+}
+
+
+
+
+
+
+
+.second-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 64px 16px;
+}
+.about {
+  text-align: center;
+  margin: 10px 0;
+}
+.about h3 {
+  text-align: center;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.about p {
+  text-align: justify;
+  margin: 15px 0;
+}
+.about i {
+  display: block;
+  margin: 15px 0;
+}
+
+
+
+.card-section {
+  display: flex;
+  padding: 32px 10px;
+  justify-content: space-evenly;
+}
+.card-section img {
+  width: 60%;
+  height: auto;
+  margin: 0 0 16px 0;
+  border-radius: 5px;
+}
+
+.card p {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.a-row {
+  color: #fff;
+  text-align: center;
+}
+.a-row h3 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 10px 0;
+}
+.a-row i {
+  display: block;
+  margin: 15px 0;
+  color: #ffffff 0.5;
+}
+.row-class {
+  color: #fff;
+  padding: 8px 16px;
+  align-items: center;
+}
+.booking-month {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  font-family: lato sans-serif;
+  background-color: #fff;
+  color: #757575;
+}
+.booking-month:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+.badge {
+  background-color: #f44336;
+  color: #fff;
+  padding: 0 8px;
+  margin-left: 16px;
+}
+.badge-circle {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-left: 600px;
+}
+
+
+
+.card-container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 64px 16px;
+}
+
+.date-container{
+  background-color: #000;
+}
+
+
+.second-card{
+  width: 33%;
+  background-color: #fff;
+  padding: 0 8px;
+  margin: 0 0 16px 0;
+  border: 3px;
+}
+.second-card img{
+  width: 100%;
+}
+.card-wrapper{
+  display: flex;
+  padding: 64px 16px;
+  background-color: #000;
+}
+.card-body h2{
+  margin: 15px 0;
+}
+.card-body span{
+  margin: 15px 0;
+}
+.card-body p{
+  margin: 15px 0;
+}
+.card-body{
+  padding: 0.15px 16px;
+}
+.card-body a button{
+  background-color: #f44336;
+  padding: 8px 16px;
+  margin: 0 0 16px 0;
+}
+.card-body a{
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 10px 0 10px;
+}
+.card-body a:hover{
+  background-color: #b5b5b5;
+  color: #000000;
+}
+
+
+
+
+
+
+.last-section{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.contact-head{
+  margin: 0 360.4px;
+  padding: 64px 16px;
+}
+.contact-head h3{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.contact-head i{
+  text-align: center;
+  display: block;
+  margin: 15px 0;
+}
+
+
+
+
+
+
+
+.foot-section{
+  text-align: center;
+  color: #757575;
+
+}
+.foot-section i{
+  margin: 15px 0;
+}
+.foot-section p{
+  margin: 10px 0;
+}
+.footer-section{
+  padding: 64px 16px;
+}
+
+
+
