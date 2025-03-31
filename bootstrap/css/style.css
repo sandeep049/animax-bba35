@@ -288,9 +288,6 @@
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
-
-
-
 .message-field a p{
   text-decoration: none;
   background-color: #FFD415;
@@ -299,6 +296,10 @@
   border-radius: 5px;
   display: inline-block;
 }
+
+
+
+
 
 .footer{
   margin-top: 100px;
@@ -316,16 +317,18 @@
   line-height: 30px;
 }
 
-.footer p{
+.footer p i{
   color: rgba(115, 112, 100,0.5);
   margin: 5px;
   font-size: 25px;
-  display: inline-block;
 }
 .footer p.icon{
   color: #ffd415;
 }
-
+.foot-section{
+  text-align: center;
+  display: inline-flex;
+}
 
 
 
@@ -337,7 +340,6 @@
   .about-service{
     text-align: center;
   }
-
   .main-banner{
     flex-direction: column;
     align-items: center;
