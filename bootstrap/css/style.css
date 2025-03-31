@@ -1,7 +1,4 @@
-.nav{
-  background-color: #000;
-  height: 60px;
-}
+
 .navs{
   background-color: #000;
   color: #fff;
@@ -44,7 +41,7 @@
 
 
 .title-card{
-  padding: 100px;
+  padding: 100px 0
 }
 .about-text{
   padding-right: 120px;
@@ -89,7 +86,7 @@
   display: flex;
 }
 .about-me{
-  padding-left: 100px;
+  padding-left: 100px 0
 }
 .first-section{
   background-color: #000;
@@ -129,7 +126,7 @@
 
 
 .service-card{
-  padding: 100px;
+  padding: 100px 0
 }
 .about-service h2{
   font-size: 45px;
@@ -177,7 +174,7 @@
   color: #fff;
 }
 .portfolio-container{
-  padding: 100px;
+  padding: 100px 0
 }
 .portfolio-card{
   text-align: center;
@@ -209,7 +206,7 @@
 
 
 .about-experiences{
-  padding: 100px;
+  padding: 100px 0
 }
 .about-paragraph h3{
   font-size: 50px;
@@ -224,6 +221,9 @@
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 80px;
+}
+.about-me{
+  margin-left: 100px;
 }
 .main-card{
   background-color: #000;
@@ -262,7 +262,7 @@
   color: #fff;
 }
 .contact-container{
-  padding: 100px;
+  padding: 100px 0
 }
 .contact-card{
   text-align: center;
@@ -291,9 +291,6 @@
 
 
 
-
-
-
 .message-field a p{
   text-decoration: none;
   background-color: #FFD415;
@@ -319,11 +316,40 @@
   line-height: 30px;
 }
 
-.footer span{
+.footer p{
   color: rgba(115, 112, 100,0.5);
   margin: 5px;
   font-size: 25px;
+  display: inline-block;
 }
-.footer span.icon{
+.footer p.icon{
   color: #ffd415;
+}
+
+
+
+
+
+@media (max-width: 768px){
+  .title-card{
+   background-color: #ff0000;
+  }
+  .about-service{
+    text-align: center;
+  }
+
+  .main-banner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text{
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-service{
+    text-align: center;
+  }
+  .about-paragraph{
+    text-align: center;
+  }
 }
