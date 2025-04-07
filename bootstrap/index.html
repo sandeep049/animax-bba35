@@ -20,35 +20,62 @@
     <link rel="stylesheet" href="Css/style.css" />
   </head>
   <body>
-    <div class="nav-bar">
-      <div class="navigation">
-        <div class="logo">About<span>Me.</span></div>
-        <ul class="nav">
-          <li class="active">Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Portfolio</li>
-          <li>Resume</li>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AboutMe.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
 
-    <div class="container-fluid">
+
+
+
+
+
+    <div class="container-fluid section-page">
       <div class="container title-card">
         <div class="row">
           <div class="col-lg-7">
             <div class="about-text">
               <h6>Hello,Welcome</h6>
-              <h2>I m Anderson Coper</h2>
+              <h1>I m Anderson Coper</h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
                 Accusantium necessitatibus maiores harum nobis <br />eos ipsa
                 nihil. Optio culpa natus quam!
               </p>
 
-              <a href="#"> Contact us </a>
+              <div class="button">
+                <button>Contact us</button>
+              </div>
             </div>
           </div>
           <div class="col-lg-5">
@@ -58,11 +85,11 @@
       </div>
     </div>
 
-    <div class="container-fluid first-section">
+    <div class="container-fluid section-page first-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <img class="img-fluid" src="./image/man.jpg" alt="" />
+            <img class="img-fluid img" src="./image/man.jpg" alt="" />
           </div>
           <div class="col-lg-7">
             <div class="text-field">
@@ -75,14 +102,16 @@
                 numquam itaque officiis quas! Assumenda, veniam.
               </p>
 
-              <a href="#"> Contact us </a>
+              <div class="button">
+                <button>Contact us</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid section-page">
       <div class="container">
         <div class="about-service">
           <h2>My <span>Service</span></h2>
@@ -133,7 +162,7 @@
       </div>
     </div>
 
-    <div class="container-fluid portfolio-section">
+    <div class="container-fluid section-page portfolio-section">
       <div class="container">
         <div class="row">
           <div class="portfolio">
@@ -176,7 +205,7 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid section-page">
       <div class="container">
         <div class="row">
           <div class="about-paragraph">
@@ -231,7 +260,7 @@
       </div>
     </div>
 
-    <div class="container-fluid contact-section">
+    <div class="container-fluid section-page contact-section">
       <div class="container">
         <div class="row">
           <div class="contact-card">
@@ -256,7 +285,7 @@
           </div>
 
           <div class="col-lg-6">
-            <div class="message-field">
+            <form class="message-field">
               <input
                 class="form"
                 type="text"
@@ -270,8 +299,10 @@
                 placeholder="Message"
               ></textarea>
 
-              <a href="#"> Contact us </a>
-            </div>
+              <div class="button butt">
+                <button>Contact us</button>
+              </div>
+            </form>
           </div>
         </div>
 
@@ -283,16 +314,29 @@
           </p>
 
           <div class="foot-section">
-            <p><i class="fa-brands fa-facebook"></i></p>
-            <p><i class="fa-brands fa-twitter"></i></p>
-            <p>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="https://np.linkedin.com/" target="_blank">
               <span class="linkedln"
                 ><i class="fa-brands fa-linkedin"></i
               ></span>
-            </p>
-            <p><i class="fa-brands fa-instagram"></i></p>
-            <p><i class="fa-brands fa-youtube"></i></p>
-            <p><i class="fa-brands fa-pinterest"></i></p>
+            </a>
+            <a
+              href="https://www.instagram.com/accounts/login/?hl=en"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a href="https://www.youtube.com/" target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+
+            <a href="https://www.pinterest.com/login/" target="_blank"
+              ><i class="fa-brands fa-pinterest"></i
+            ></a>
           </div>
         </div>
       </div>

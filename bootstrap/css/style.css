@@ -3,70 +3,38 @@
   padding: 0;
   font-family: sans-serif;
 }
-a {
-  text-decoration: none;
+.button button{
   padding: 13px 25px;
   background-color: #FFD415;
   color: #000;
+  border: none;
   border-radius: 5px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
-a:hover{
-  background-color: #df7a7a;
+.button button:hover{
+  background-color: #cb9502;
   color: #000;
-  transition: all 0.9s ease;
+  transition: all 0.5s ease;
 }
 .img-fluid{
   border-radius: 30px;
 }
-.container-fluid{
+.section-page{
   padding: 100px 0;
 }
 
 
 
-
-.nav-bar{
-  background-color: #000000;
-  color: #fff;
-  padding: 0 150px;
+h1{
+  color: rgba(0, 0, 0 0.5);
+  cursor: pointer;
 }
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-ul{
-  padding: 0;
-  margin: 0;
-}
-.nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h1:hover{
+  color: #ff0000;
 }
 
-li{
-  color: #d4d4d4;
-  list-style: none;
-  font-size: 18px;
-  display: inline-block;
-  margin-right: 30px;
-  text-transform: uppercase;
-  text-align: center;
-}
-.active{
-  color: #fff;
-}
 
-.logo{
-  margin-left: 50px;
-  font-size: 30px;
-  font-weight: 600;
-}
-.logo span{
-  color: #ffd415;
-}
+
 
 
 
@@ -123,10 +91,10 @@ li{
 .text-field a{
   padding: 20px 30px;
 }
-/* .img-fluid{
+.img{
   border-radius: 30px;
-  box-shadow: -35px 40px 0 #eaca2b,-5px 20px 0 #000000;
-} */
+  box-shadow: -15px 15px black, -30px 30px yellow;
+}
 
 
 
@@ -151,11 +119,12 @@ li{
   background-color: #000;
   color: #fff;
   border-radius: 20px;
-  transition: all 0.5s ;
+  transition: all 0.5s;
 }
 .card:hover{
-  background-color: #df7a7a;
-  transform: translate(space-between);
+  background-color: #4343db80;
+  transform: rotate(-5deg);
+  cursor: pointer;
 }
 .card span{
   color: #eaca2b;
@@ -238,6 +207,13 @@ li{
   background-color: #000;
   color: #fff;
   border-radius: 15px;
+  transition: all 0.5s ease;
+}
+.main-card:hover{
+  background-color: #4343db80;
+  color: #000;
+  transform: translatey(10px);
+  cursor: pointer;
 }
 .main-card h4 {
   padding-top: 30px;
@@ -302,20 +278,19 @@ li{
   margin-bottom: 30px;
 }
 .form{
-  padding: 15px;
+  padding: 15px 150px 15px 15px;
   background-color: #434353;
   border: none;
 }
 .forms{
   margin-top: 30px;
-  padding: 40px;
+  padding: 20px 350px 80px 20px;
   background-color: #434353;
   border: none;
 }
-.message-field a{
-  padding: 20px 30px;
+.butt button{
+  margin-top: 30px;
 }
-
 
 
 
@@ -332,12 +307,12 @@ li{
   margin-bottom: 30px;
 }
 
-.footer p {
+.footer a {
   color: #aaa4b9;
   font-size: 18px;
   margin-bottom: 30px;
 }
-.footer p i {
+.footer a i {
   color: rgba(115, 112, 100, 0.5);
   margin: 5px;
   font-size: 25px;
@@ -345,7 +320,7 @@ li{
 .foot-section {
   display: inline-flex;
 }
-.foot-section p span i{
+.foot-section a span i{
   color: #eaca2b;
 }
 
