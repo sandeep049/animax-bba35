@@ -22,20 +22,11 @@
 
 
 
-h1{
-  color: rgba(0, 0, 0 0.5);
-  cursor: pointer;
-}
-h1:hover{
-  color: #ff0000; 
-}
-
 
 
 
 .carousel-img{
   height: 600px;
-  overflow: hidden;
 }
 
 
@@ -44,6 +35,15 @@ h1:hover{
 
 .about-text{
   margin-top: 100px;
+}
+.about-text h1{
+  color: rgba(0, 0, 0 0.5);
+  display: inline-block;
+  cursor: pointer;
+}
+.about-text h1:hover{
+  color: #ffd415; 
+  text-decoration: underline;
 }
 .about-text h6{
   color: #ffd415;
@@ -306,6 +306,13 @@ h1:hover{
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 30px;
+  display: inline-block;
+}
+.footer h2:hover{
+  background-color: #000;
+  color: #ffd415;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .footer a {
@@ -323,6 +330,10 @@ h1:hover{
 }
 .foot-section a span i{
   color: #eaca2b;
+}
+.foot-section a i:hover{
+  background-color: #000;
+  color: #777785;
 }
 
 

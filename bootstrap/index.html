@@ -17,14 +17,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="Css/style.css" />
   </head>
   <body>
-    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">AboutMe.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -55,81 +65,118 @@
       </div>
     </nav>
 
-
-
-
-
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
       <div class="carousel-inner carousel-img">
         <div class="carousel-item active">
-          <img src="image/newyork.jpg" class="d-block w-100" alt="...">
+          <img src="image/newyork.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="image/night.jpg" class="d-block w-100" alt="...">
+          <img src="image/night.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="image/paris.jpg" class="d-block w-100" alt="...">
+          <img src="image/paris.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
-
-
-<!-- Button trigger modal -->
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Welcome,This is a modal section.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Welcome,This is a modal section.</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
+    <div class="container section-page" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="about-text">
+            <h6>Hello,Welcome</h6>
+            <h1>I m Anderson Coper</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+              Accusantium necessitatibus maiores harum nobis <br />eos ipsa
+              nihil. Optio culpa natus quam!
+            </p>
 
-    <div class="container-fluid section-page">
-      <div class="container title-card">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="about-text">
-              <h6>Hello,Welcome</h6>
-              <h1>I m Anderson Coper</h1>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
-                Accusantium necessitatibus maiores harum nobis <br />eos ipsa
-                nihil. Optio culpa natus quam!
-              </p>
-
-              <div class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">contact us
-                
-              </div>
+            <div
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              contact us
             </div>
           </div>
-          <div class="col-lg-5">
-            <img class="img-fluid img-card" src="image/image.jpg" alt="" />
-          </div>
+        </div>
+        <div class="col-lg-5">
+          <img class="img-fluid img-card" src="image/image.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -137,10 +184,10 @@
     <div class="container-fluid section-page first-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-lg-5" data-aos="fade-right">
             <img class="img-fluid img" src="./image/man.jpg" alt="" />
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-7" data-aos="fade-left">
             <div class="text-field">
               <h2 class="heading-style">About <span>Me</span></h2>
               <p>
@@ -160,52 +207,50 @@
       </div>
     </div>
 
-    <div class="container-fluid section-page">
-      <div class="container">
-        <div class="about-service">
-          <h2>My <span>Service</span></h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur,adipisicing elit.<br />
-            Ad id unde quam est, porro, sint fugiat dolorum minus voluptates
-            <br />
-            reiciendis, nulla harum accusamus et eaque.
-          </p>
+    <div class="container section-page" data-aos="slide-up">
+      <div class="about-service">
+        <h2>My <span>Service</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur,adipisicing elit.<br />
+          Ad id unde quam est, porro, sint fugiat dolorum minus voluptates
+          <br />
+          reiciendis, nulla harum accusamus et eaque.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <span><i class="fa-solid fa-bullhorn"></i></span>
+            <h3>Digital <br />Marketing</h3>
+            <p>
+              Lorem, ipsum dolor sit amet <br />
+              consectetur adipisicing elit. Velit nulla rem <br />
+              totam, repellendus vero asperiores.
+            </p>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card">
-              <span><i class="fa-solid fa-bullhorn"></i></span>
-              <h3>Digital <br />Marketing</h3>
-              <p>
-                Lorem, ipsum dolor sit amet <br />
-                consectetur adipisicing elit. Velit nulla rem <br />
-                totam, repellendus vero asperiores.
-              </p>
-            </div>
-          </div>
 
-          <div class="col-lg-4">
-            <div class="card">
-              <span><i class="fa-solid fa-bullhorn"></i></span>
-              <h3>Web <br />Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet <br />
-                consectetur adipisicing elit. Nulla molestias quasi<br />
-                voluptatum, quisquam sit consectetur.
-              </p>
-            </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <span><i class="fa-solid fa-bullhorn"></i></span>
+            <h3>Web <br />Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet <br />
+              consectetur adipisicing elit. Nulla molestias quasi<br />
+              voluptatum, quisquam sit consectetur.
+            </p>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div class="card">
-              <span><i class="fa-solid fa-bullhorn"></i></span>
-              <h3>Creative <br />Graphics Design</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur <br />adipisicing
-                elitQuis necessitatibus nam quos,<br />
-                aliquid nobis ut stand us a more.
-              </p>
-            </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <span><i class="fa-solid fa-bullhorn"></i></span>
+            <h3>Creative <br />Graphics Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />adipisicing elitQuis
+              necessitatibus nam quos,<br />
+              aliquid nobis ut stand us a more.
+            </p>
           </div>
         </div>
       </div>
@@ -232,19 +277,35 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-6">
-                    <img class="img-fluid img-card image-cards" src="image/image.jpg" alt="" />
+                    <img
+                      class="img-fluid img-card image-cards"
+                      src="image/image.jpg"
+                      alt=""
+                    />
                   </div>
 
                   <div class="col-lg-6">
-                    <img class="img-fluid img-card image-cards" src="image/image.jpg" alt="" />
+                    <img
+                      class="img-fluid img-card image-cards"
+                      src="image/image.jpg"
+                      alt=""
+                    />
                   </div>
 
                   <div class="col-lg-6">
-                    <img class="img-fluid img-card image-cards" src="image/image.jpg" alt="" />
+                    <img
+                      class="img-fluid img-card image-cards"
+                      src="image/image.jpg"
+                      alt=""
+                    />
                   </div>
 
                   <div class="col-lg-6">
-                    <img class="img-fluid img-card image-cards" src="image/image.jpg" alt="" />
+                    <img
+                      class="img-fluid img-card image-cards"
+                      src="image/image.jpg"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -254,56 +315,53 @@
       </div>
     </div>
 
-    <div class="container-fluid section-page">
-      <div class="container">
-        <div class="row">
-          <div class="about-paragraph">
-            <h3>My <span>Experiences</span></h3>
+    <div class="container section-page" data-aos="slide-up">
+      <div class="about-paragraph">
+        <h3>My <span>Experiences</span></h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          animi cupiditate <br />
+          repellat necessitatibus repellendus ullam distinctio quod dignissimos!
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="main-card">
+            <h4>June-2002-2020</h4>
+            <h2>UI/UX Designer</h2>
+            <h6>Figma</h6>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              animi cupiditate <br />
-              repellat necessitatibus repellendus ullam distinctio quod
-              dignissimos!
+              Lorem ipsum dolor sit amet consectetur, <br />
+              adipisicing elit. Nihil, voluptas magni? Distinctio tempore fugiat
+              corrupti non rem, excepturi cum pariatur!
             </p>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div class="main-card">
-              <h4>June-2002-2020</h4>
-              <h2>UI/UX Designer</h2>
-              <h6>Figma</h6>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, <br />
-                adipisicing elit. Nihil, voluptas magni? Distinctio tempore
-                fugiat corrupti non rem, excepturi cum pariatur!
-              </p>
-            </div>
+        <div class="col-lg-4">
+          <div class="main-card">
+            <h4>june-2002-2020</h4>
+            <h2>UI/UX Designer</h2>
+            <h6>Illustrator</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, <br />
+              adipisicing elit. Nihil, voluptas magni? Distinctio tempore fugiat
+              corrupti non rem, excepturi cum pariatur!
+            </p>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div class="main-card">
-              <h4>june-2002-2020</h4>
-              <h2>UI/UX Designer</h2>
-              <h6>Illustrator</h6>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, <br />
-                adipisicing elit. Nihil, voluptas magni? Distinctio tempore
-                fugiat corrupti non rem, excepturi cum pariatur!
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="main-card">
-              <h4>june-2002-2020</h4>
-              <h2>UI/UX Designer</h2>
-              <h6>Adobe Photoshop</h6>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, <br />
-                adipisicing elit. Nihil, voluptas magni? Distinctio tempore
-                fugiat corrupti non rem, excepturi cum pariatur!
-              </p>
-            </div>
+        <div class="col-lg-4">
+          <div class="main-card">
+            <h4>june-2002-2020</h4>
+            <h2>UI/UX Designer</h2>
+            <h6>Adobe Photoshop</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, <br />
+              adipisicing elit. Nihil, voluptas magni? Distinctio tempore fugiat
+              corrupti non rem, excepturi cum pariatur!
+            </p>
           </div>
         </div>
       </div>
@@ -336,17 +394,38 @@
           <div class="col-lg-6">
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
               </div>
               <button type="submit" class="btn btn-warning">Submit</button>
             </form>
@@ -364,7 +443,9 @@
             <a href="https://www.facebook.com/" target="_blank"
               ><i class="fa-brands fa-facebook"></i
             ></a>
-            <a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://x.com/i/flow/login" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
 
             <a href="https://np.linkedin.com/" target="_blank">
               <span class="linkedln"
@@ -388,6 +469,12 @@
         </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
