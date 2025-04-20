@@ -35,15 +35,16 @@
 
 .about-text{
   margin-top: 100px;
+  margin-right: 250px;
 }
 .about-text h1{
   color: rgba(0, 0, 0 0.5);
   display: inline-block;
   cursor: pointer;
 }
+
 .about-text h1:hover{
-  color: #ffd415; 
-  text-decoration: underline;
+  color: #ffd415;
 }
 .about-text h6{
   color: #ffd415;
@@ -58,6 +59,7 @@
   color: #706a6a;
   line-height: 25px;
   margin-bottom: 30px;
+  font-size: 15px;
 }
 
 
@@ -200,7 +202,7 @@
 }
 .about-paragraph p {
   color: #706a6a;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
   margin-bottom: 80px;
 }
